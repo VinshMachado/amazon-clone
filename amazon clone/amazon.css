@@ -1,0 +1,265 @@
+* {
+  margin: 0px;
+  border: border-box;
+  font-style: arial;
+}
+.glow {
+  border: 2px transparent;
+}
+.glow:hover {
+  border: 1px solid white;
+  border-radius: 5%;
+}
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #0f1111;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* box one logo*/
+.logo {
+  height: 50px;
+  width: 123px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+/* box 2 */
+.box2 {
+  color: white;
+  font-size: 1rem;
+  height: 50;
+  width: 85px;
+  justify-content: center;
+}
+.deliver {
+  font-size: 1rem;
+}
+.in {
+  font-size: 1.5rem;
+}
+.ind {
+  display: flex;
+}
+
+/* search bar */
+.searchbar {
+  background-color: #0f1111;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 50px;
+  display: flex;
+}
+.option {
+  height: 40px;
+  width: 52px;
+  background-color: #e6e6e6;
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+}
+.search-icon {
+  display: flex;
+  width: 45px;
+  color: black;
+  height: 40px;
+  border: 1px solid black;
+  background-color: peachpuff;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.bar {
+  display: flex;
+  width: 750px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+}
+/* box3*/
+.usflag {
+  padding-left: 5px;
+  height: 50px;
+  width: 78px;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: solid white;
+  text-size-adjust: 8px;
+}
+.la {
+  height: 50px;
+  width: 78px;
+  background-color: #0f1111;
+  font-size: 12px;
+  color: aliceblue;
+  border: transparent;
+}
+
+/* box 4 */
+.account {
+  width: 131px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ac {
+  height: 50px;
+  width: 78px;
+  background-color: #0f1111;
+  font-size: 15px;
+  color: aliceblue;
+  border: transparent;
+}
+.hello {
+  font-size: 6px;
+}
+/* box 5*/
+.box5 {
+  height: 50px;
+  width: 76px;
+}
+.op {
+  text-size-adjust: 12px;
+}
+/* box 6 */
+.box6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 85px;
+}
+
+/*----------------- itom bar-------------------- */
+
+.itembar {
+  display: flex;
+  align-items: center;
+  padding-left: 11px;
+  width: 100%;
+  height: 41px;
+  background-color: #333838;
+  border: 0.5px;
+  color: #e6e6e6;
+}
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1084;
+  height: 39px;
+  padding-left: 10px;
+}
+.itm {
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* *********************main body******************** */
+
+.buy {
+  background-color: #f0f0f0;
+  height: 2000px;
+  width: 100%;
+}
+.hero {
+  background: url(71Q+c4-cnjL._SX3000_.jpg);
+  padding-bottom: 100px;
+  background-color: #cfcfcf;
+  height: 600px;
+  background-size: cover;
+  display: flex;
+}
+.herofull {
+  height: 1152px;
+  width: auto;
+}
+
+/*itmew frame ?///////*/
+.buyables {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 364px;
+
+  width: 100%;
+  height: 424px;
+}
+.buybox {
+  height: 364px;
+  width: 420px;
+  background-color: #ffff;
+  border-radius: 1%;
+}
+.buybox-quad {
+  height: 364px;
+  width: 420px;
+  background-color: #ffff;
+  border-radius: 1%;
+}
+.title {
+  padding-left: 20px;
+  height: 40px;
+  font-weight: 100%;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.quadbox-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 151px;
+  width: 324px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*                  ----------------------------------------- new box */
+
+.discountframe {
+  height: auto;
+  justify-content: center;
+  padding-left: 12px;
+}
+.discount {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  height: 24px;
+  width: 60px;
+  font-size: auto;
+  background-color: rgb(255, 65, 97);
+  color: white;
+  border-radius: 1px;
+}
+#add {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.secondrow {
+  height: 1100px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
